@@ -1,0 +1,12 @@
+print("How many years?")
+while True:
+    try:
+        years = int(input(":"))
+        break
+    except ValueError:
+        print("Only(fans) numbers bruh")
+        
+if years >= 18:
+    print("You are a adult")
+else:
+    print("You are a kiddo")
